@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Tribute to Sardar Vallabhbhai Patel</title>
+	<style>
+		body {
+			font-family: Georgia, serif;
+			background-color: gray;
+			color: black;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.container {
+			max-width: 1000px;
+      margin: 40px;
+			padding: 50px;
+			background-color: lightgray;
+			box-shadow: 0 0 500px rgba(0, 0, 0, 0.2);
+			font-size: 20px;
+		}
+
+		header {
+			background-color: red;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 36px;
+			text-align: center;
+			margin: 0;
+		}
+
+		main {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			font-size: 20px;
+			background-color: lightblue;
+			box-shadow: 0 0 1000px rgba(0, 0, 0, 0.2);
+		}
+
+		p {
+			line-height: 1.5;
+			text-align: justify;
+		}
+
+		img {
+			max-width: 500px;
+			height: auto;
+			display: block;
+			margin: 20px;
+			float: left;
+		}
+
+		ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		li {
+			margin-bottom: 20px;
+		}
+
+    footer {
+	background-color: gray;
+	color: white;
+	text-align: center;
+	padding: 20px;
+  margin: 40px;
+	margin-top: 50px;
+}
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Sardar Vallabhbhai Patel: The Iron Man of India</h1>
+		</header>
+		<img src="sardar.jpg" alt="Sardar Vallabhbhai Patel">
+		<p>Sardar Vallabhbhai Patel, fondly known as the Iron Man of India, was a towering figure in the country's struggle for independence and its subsequent unification. Born on October 31, 1875, in Nadiad, Gujarat, Patel played a pivotal role in the Indian National Movement and is revered for his unwavering commitment to the cause of a united India.</p> <br> <br> <br>
+		<main>
+			<h1>About the Iron Man</h1>
+			<ul>
+				<li>Patel attended primary school at Karamasad and high school at Petlad but was mainly self-taught. Patel married at the age of 16, matriculated at 22, and passed the district pleader’s examination, which enabled him to practice law.</li> <br>
+				<li>Determined to enhance his career in the legal profession, Patel traveled to London in August 1910 to study at the Middle Temple. There he studied diligently and passed the final examinations with high honours.</li> <br>
+				<li>In 1911, Patel was appointed to the Supreme Court of India, where he served until 1914. Returning to India in February 1913, he settled in Ahmedabad, rising rapidly to become the leading barrister in criminal law at the Ahmedabad bar.</li> <br>
+				<li>Patel, however, was no revolutionary. In the crucial debate over the objectives of the Indian National Congress during the years 1928 to 1931, Patel believed that the goal of the Indian National Congress should be dominion status within the British Commonwealth, not independence.</li> <br>
+				<li>Patel disagreed with Jawaharlal Nehru on the need to bring about economic and social changes by coercion. A conservative rooted in traditional Hindu values, Patel belittled the usefulness of adapting socialist ideas to the Indian social and economic structure.</li> <br>
+			</ul>
+		</main>
+    <footer>
+      <p>&copy; 2024 Tribute to Sardar Vallabhbhai Patel. All rights reserved.</p>
+      <p>For more information about Sardar Vallabhbhai Patel, visit the <a href="https://en.wikipedia.org/wiki/Vallabhbhai_Patel" target="_blank">Wikipedia page</a>.</p>
+    </footer>
+	</div> 
+</body>
+</html>
