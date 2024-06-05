@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blossoms Christ University Event Registration</title>
+  <style>
+    
+    body {
+      font-size: 1.6rem;
+      font-family: "Open Sans", sans-serif;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.5); /* Adjust the opacity as needed */
+      z-index: -1;
+    }
+
+
+    h2 {
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    p {
+      position: relative;
+      margin: 15px 0;
+    }
+
+    a {
+      color: #3ca9e2;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #329dd5;
+      text-decoration: underline;
+    }
+
+    #registration-form-wrap {
+      background-color: #fff;
+      width: 400px;
+      padding: 40px 20px;
+      border-radius: 8px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    #registration-form-wrap:hover {
+      transform: scale(1.05);
+    }
+
+    #registration-form {
+      padding: 0 20px;
+    }
+
+    input, select {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #c2c0ca;
+      border-radius: 4px;
+      font-size: 16px;
+      color: #333;
+      background: none;
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"] {
+      height: 45px;
+      line-height: 45px;
+    }
+
+    select {
+      height: 45px;
+    }
+
+    input:focus,
+    select:focus {
+      border-color: #3ca9e2;
+    }
+
+    .validation {
+      display: none;
+      position: absolute;
+      height: 45px;
+      width: 30px;
+      right: 15px;
+      top: 0;
+    }
+
+    input[type="submit"] {
+      border: none;
+      background-color: #3ca9e2;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-size: 18px;
+      height: 45px;
+      line-height: 45px;
+      border-radius: 4px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #329dd5;
+    }
+
+    #create-account-wrap {
+      background-color: #eeedf1;
+      color: #8a8b8e;
+      font-size: 14px;
+      width: 100%;
+      padding: 10px 0;
+      border-radius: 0 0 8px 8px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="registration-form-wrap">
+  <h2>Blossoms Event Registration</h2>
+  <form id="registration-form">
+    <p>
+      <input type="text" id="name" name="name" placeholder="Name" required>
+      <i class="validation"><span></span><span></span></i>
+    </p>
+    <p>
+      <input type="text" id="register_number" name="register_number" placeholder="Register Number" required>
+      <i class="validation"><span></span><span></span></i>
+    </p>
+    <p>
+      <input type="text" id="class_section" name="class_section" placeholder="Class and Section" required>
+      <i class="validation"><span></span><span></span></i>
+    </p>
+    <p>
+      <select id="event" name="event" required>
+        <option value="" disabled selected>Select Event</option>
+        <option value="event1">Street Theatre</option>
+        <option value="event2">Battle of Bands</option>
+        <option value="event3">MIME</option>
+        <option value="event4">Quiz</option>
+        <option value="event5">Dumb Charades</option>
+        <option value="event6">Extempore</option>
+      </select>
+    </p>
+    <p>
+      <input type="submit" id="register" value="Register">
+    </p>
+  </form>
+  <div id="create-account-wrap">
+    <p>Already a member? <a href="#">Login</a></p>
+  </div>
+</div>
+
+</body>
+</html>
